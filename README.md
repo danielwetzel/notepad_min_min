@@ -2,6 +2,8 @@
 
 A modern, lightweight markdown note-taking application built with SvelteKit 5 and Tailwind CSS. Create, edit, and manage your markdown notes with a clean and intuitive interface.
 
+![Landing Page](documentation/screenshots/screenshot1.png)
+
 ## Project Overview
 
 notepad-- is a file-based markdown note-taking application that allows users to create, edit, and manage their notes with real-time preview. The app features a modern UI with a collapsible sidebar, dark/light theme support, and responsive design.
@@ -100,6 +102,8 @@ notepad--/
   - Markdown editor with live preview
   - File saving and auto-save functionality
   - Split view for editing and preview
+
+![Editor Preview in Dark Mode](documentation/screenshots/screenshot2.png)
 
 ## Usage Guide
 

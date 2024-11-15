@@ -73,15 +73,6 @@
 		<div class="flex items-center justify-between">
 			<h1 class="text-2xl font-bold">{formatDisplayTitle(data.title)}</h1>
 			<div class="flex items-center gap-2">
-				<Button type="submit" variant="outline" class="rounded-2xl font-medium text-white" disabled={saving}>
-					{#if saving}
-						<Loader2 class="h-4 w-4 mr-2 animate-spin" />
-						Saving...
-					{:else}
-						<Save class="h-4 w-4 mr-2" />
-						Save
-					{/if}
-				</Button>
 				<Button 
 					type="button" 
 					variant="secondary" 
@@ -96,6 +87,16 @@
 						Edit
 					{/if}
 				</Button>
+				<Button type="submit" variant="default" class="rounded-2xl font-medium text-primary-foreground text-white" disabled={saving}>
+					{#if saving}
+						<Loader2 class="h-4 w-4 mr-2 animate-spin" />
+						Saving...
+					{:else}
+						<Save class="h-4 w-4 mr-2" />
+						Save
+					{/if}
+				</Button>
+
 			</div>
 		</div>
 

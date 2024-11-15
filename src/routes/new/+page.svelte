@@ -60,7 +60,7 @@
 					<XCircle class="h-4 w-4 mr-2" />
 					Cancel
 				</Button>
-				<Button type="submit" class="rounded-2xl font-medium text-white" disabled={saving}>
+				<Button type="submit" variant="default" class="rounded-2xl font-medium text-primary-foreground text-white" disabled={saving}>
 					{#if saving}
 						<Loader2 class="h-4 w-4 mr-2 animate-spin" />
 						Creating...
